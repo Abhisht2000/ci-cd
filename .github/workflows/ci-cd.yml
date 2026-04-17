@@ -38,7 +38,7 @@ jobs:
     # 6. Verify Docker container
     - name: Run Docker Container Test
       run: |
-        docker run -d -p 3000:3000 --name test-container my-node-app
+        docker run -d -p 4000:3000 --name test-container my-node-app
         sleep 5
-        curl http://localhost:3000/health
+        curl http://localhost:4000/health
         docker stop test-container
