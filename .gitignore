@@ -1,0 +1,26 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+
+# Environment variables
+.env
+
+# Build files
+dist/
+build/
+
+# Docker
+*.tar
+
+# VS Code
+.vscode/
+
+# Mac system files
+*.swp
